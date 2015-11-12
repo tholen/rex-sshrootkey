@@ -3,4 +3,3 @@ Description: Installs your root key onto designated servers for you
 Author: xarlos <xarlos@xarlos.me>
 License: Apache 2.0
 Require:
-  - Rex::Ext::ParamLookup
