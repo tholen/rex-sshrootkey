@@ -1,5 +1,5 @@
 
-package Rex::Ssh::Root;
+package Rex::Ssh::Rootkeys;
 use Rex -base;
 
 user 'root';
