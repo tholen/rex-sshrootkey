@@ -1,4 +1,3 @@
-
 package Rex::Ssh::Rootkeys;
 use Rex -base;
 
@@ -8,7 +7,7 @@ key_auth;
 # Usage: rex install 
 
 desc 'Add in the ssh keys for my user';
-task 'install', sub { 
+task 'setup', sub { 
 
 	file "/root/.ssh",
 	ensure => "directory",
